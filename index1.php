@@ -21,4 +21,4 @@ $array = array(
 ?>
 <h1><?php echo $array['name']; ?></h1>
 <p style="color:green; text-decoration:underline;"><?php echo $array['id']; ?></p>
-<input type="date" value="<?php echo $array['dob']; ?>"></input> <!-- does not work -->
+<input type="date" value="<?php echo $array['dob']; ?>"></input> <!--  not working -->
