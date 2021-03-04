@@ -1,14 +1,11 @@
 <!-- EX5 -->
 <?php
-$string = "mmhghgtmakkmk";
+$stringarray = array("car", "dog", "baloon", "papa");
 $tofind = "a";
 
-for($i = 0; $i < count($string); $i++){
-    $checka = strpos($string, $tofind);
-    if ($checka) {
-        echo "the string:" . $string . "contains the letter a , in position " . $checka;
-    } else
-        echo "the string: ", $string . "  does not contain the letter a ";
+foreach ($stringarray as $value) {
+    if (strpos($value, $tofind)) {
+        echo '=> ' . $value . "<br>";
+    }
 }
-
 ?>
